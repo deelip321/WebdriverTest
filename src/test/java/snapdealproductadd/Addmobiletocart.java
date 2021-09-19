@@ -41,7 +41,7 @@ public class Addmobiletocart {
 			driver.switchTo().window(childwindow);
 			driver.findElement(By.xpath("//span[@class='intialtext']")).click();
 			driver.findElement(By.xpath("//span[@class='class']")).click();
-			driver.close();
+			driver.quit();
 		}
 		driver.switchTo().window(parent);
 	}
